@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     hehe boi
+     hehehe boi
     </>
   )
 }
