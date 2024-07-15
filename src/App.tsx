@@ -3,7 +3,6 @@ import Herosection from "../Component/Herosection";
 import Navbar from "../Component/Navbar";
 import LoginPage from "../Component/LoginPage";
 import SignUp from "../Component/SignUp";
-import UserProfile from "../Component/UserProfile";
 import CreateProfile from "../Component/CreateProfile";
 import Footer from "../Component/Footer";
 
