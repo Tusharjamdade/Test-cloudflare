@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom"
 
 export default function SignUp() {
+    const navigate = useNavigate()
   return (
     <section className="bg-gray-50 dark:bg-slate-800 ">
     <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
@@ -42,7 +44,7 @@ export default function SignUp() {
                     </div>
                     <button type="submit" className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign in</button>
                     <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-                        Already have an account yet? <a href="#" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign up</a>
+                        Already have an account yet? <button onClick={()=>{navigate("/login")}} className="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign up</button>
                     </p>
                 </form>
             </div>
