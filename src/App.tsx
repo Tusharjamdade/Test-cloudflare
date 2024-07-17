@@ -14,7 +14,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
+
           <Route path="/" element={<Herosection />} />
+          <Route path="/profile" element={<CreateProfile />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/createprofile" element={<CreateProfile />} />
